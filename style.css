@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient( to right, #e4e0e3fb, #d1cbd0fb 15%, #f3d2ee 15%, #f3d2ee 85%, #e4e0e3fb 85%), url("bookmark1.png");
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+}
+
+.bg {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: sans-serif;
+    margin-left: 3in;
+    /* background-image: linear-gradient(pink, rgb(170, 210, 255)), url("bookmark.png"); */
+}
+
+input {
+    padding: 15px 10px 10px 10px;
+    width: 396px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgb(175, 151, 155);
+}
+
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    background: rgb(224, 71, 178);
+    border-radius: 5px;
+    color: white
+}
+
+.btn-clear {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    background: rgb(224, 71, 178);
+    border-radius: 5px;
+    color: white;
+    float: right;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px gray;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 650px;
+}
+
+.tableheader {
+    background: rgb(89, 118, 145);
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.center {
+    text-align: center;
+}
+
+.close {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border: none;
+    background: rgb(209, 49, 49);
+    border-radius: 5px;
+    color: white
+}
